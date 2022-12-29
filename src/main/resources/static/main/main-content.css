@@ -1,0 +1,72 @@
+.container{
+    width:90%;
+    /*border:1px solid rgb(255, 255, 255);*/
+    overflow:hidden;
+    margin:20px auto;
+    margin-top: 1%;
+    margin-bottom: 8%;
+}
+.box{
+    width:30%;
+    height:100px;
+    float:left;
+    /*border:1px solid rgb(255, 255, 255);*/
+    margin: 12px;
+}
+.navbar {
+    position: fixed;
+    width:101%;
+    height:80px;
+    /*border:1px solid rgb(255, 255, 255);*/
+    overflow:hidden;margin-left: -10px;
+    margin-top: -20px;
+    background-color: rgb(0, 0, 0);
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: rgb(71, 71, 71);
+}
+.navbar-box-1{
+    width:39%;
+    min-height:100px;
+    float:left;
+}
+.navbar-box-2{
+    width:10%;
+    min-height:100px;
+    float:left;
+}
+.navbar-box-3{
+    width:37%;
+    min-height:100px;
+    float:left;
+}
+.navbar-box-4{
+    width:3%;
+    min-height:100px;
+    float:left;
+}
+.navbar-box-5{
+    width:6%;
+    min-height:100px;
+    float:left;
+}
+.playerbar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width:101%;
+    height:150px;
+    border-style: solid none none none;
+    /*border:1px solid rgb(255, 255, 255);*/
+    overflow:hidden;
+    margin-left: -10px;
+    margin-bottom: -32px;
+    border-width: 1px;
+    border-color: rgb(33, 33, 33);
+}
+.title-up{
+    display: block;
+    margin-top: 8%;
+    margin-bottom: -8%;
+    margin-left: 40%;
+}

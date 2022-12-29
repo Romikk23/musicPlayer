@@ -1,0 +1,23 @@
+
+.popup {
+    visibility: hidden;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    width: 40%;
+    height: 30%;
+    background-color: rgb(21, 21, 21);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    border-radius: 6px;
+    position: fixed;
+    z-index: 2;
+}
+.blur {
+    visibility: hidden;
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    height: 200%;
+    background-color: rgba(15, 19, 16, 0.574);
+}

@@ -1,0 +1,148 @@
+#myProgress {
+  width: 98%;
+  background-color: #565656; 
+  cursor: pointer;
+  margin-left: 3px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+#myBar {
+  width: 0%;
+  height: 5px;
+  background-color: #5aff86;
+}
+
+.btn-action{
+  cursor: pointer;
+  padding-top: 10px;
+  width: 30px;
+}
+
+.btn-ctn, .infos-ctn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.infos-ctn{
+margin-top: 10px;
+}
+
+.btn-ctn > div {
+ padding: 5px;
+ margin-top: -10px;
+ margin-bottom: -10px;
+
+}
+
+.infos-ctn > div {
+ margin-bottom: 20px;
+ color: #ffffff;
+}
+
+.first-btn{
+  margin-left: 3px;
+}
+
+.duration{
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.timer{
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title{
+  margin-left: 10px;
+  width: 210px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.player-ctn{
+  width: 101%;
+  padding: 10px;
+  background-color: #000000;
+  margin:auto;
+  margin-top: -1%;
+}
+
+.playlist-track-ctn{
+  display: flex;
+  background-color: #0a0a0a;
+  margin-top: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+.playlist-track-ctn > div{
+  margin:10px;
+}
+.playlist-info-track{
+  width: 10%;
+  color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.playlist-info-track,.playlist-duration{
+  color: #ffffff;
+  font-size: 14px;
+  pointer-events: none;
+  padding-top: 32px;
+  width: 100%;
+}
+.playlist-ctn{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.active-track{
+  background: #121812;
+  color: #0eab00 !important;
+  font-weight: bold;
+  
+}
+
+.active-track > .playlist-info-track,.active-track >.playlist-duration,.active-track > .playlist-btn-play{
+  color: #ffffff !important;
+}
+
+
+.playlist-btn-play{
+  pointer-events: none;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  transition: 0.3s;
+  position: absolute;
+  opacity: 0;
+}
+.preview-image{
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: 0.3s;
+  position:static;
+}
+.preview-image:hover .playlist-btn-play{
+  opacity: 1;
+}
+.preview-image:hover{
+  -webkit-filter: brightness(40%);
+  filter: brightness(40%);
+}
+.playlist-track-ctn:hover .playlist-btn-play{
+  opacity: 1;
+}
+.playlist-track-ctn:hover .preview-image{
+  -webkit-filter: brightness(40%);
+  filter: brightness(40%);
+}
+.fas{
+  color: #ffffff;
+  font-size: 20px;
+}
